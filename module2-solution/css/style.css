@@ -3,34 +3,43 @@
 }
 body{
   margin: 0px;
-  background-color: pink;
+  background-color: white;
 }
 h1{
-  color: maroon;
+  color: green;
   font-size: 175%;
   text-align: center;
 }
 .row{
   width: 100%;
 }
-p{
-  margin: 45px 5px 5px 5px;
-  color: red;
+.container{
+
 }
-div>div{
+p{
+  margin: 35px 5px 5px 5px;
+  color: black;
+}
+div>section>div{
+  border: 1px solid black;
+  margin: 20px;
   position: relative;
-  background: yellow;
+  background: #d0d0d0;
   padding: 1px;
   padding-top: 0px;
+
 }
-div>div>div>p{
+div>section>div>div{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+div>section>div>div>p{
   color: black;
   margin: 0px;
   padding: 1px;
   font-size: 125%;
-  position: absolute;
-  right: 10px;
-  top: 10px;
+ 
   border: 2px solid black; 
 }
 #d1{
@@ -45,7 +54,6 @@ div>div>div>p{
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -89,7 +97,6 @@ div>div>div>p{
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -132,7 +139,6 @@ div>div>div>p{
 @media (max-width: 767px) {
   .col-ss-1, .col-ss-2, .col-ss-3, .col-ss-4, .col-ss-5, .col-ss-6, .col-ss-7, .col-ss-8, .col-ss-9, .col-ss-10, .col-ss-11, .col-ss-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-ss-1 {
     width: 8.33%;
